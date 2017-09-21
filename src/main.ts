@@ -1,6 +1,7 @@
 /// <reference path="../node_modules/phaser/typescript/phaser.d.ts"/>
 
-import {MainState} from "./mainState.ts";
+import {MainState} from "./mainState";
+import {PreloadState} from "./preloadState";
 
 // new Phaser.Game(width, height, レンダラ(Phaser.AUTOで自動選択), DOMエレメント指定)
 let game    = new Phaser.Game(640, 480, Phaser.AUTO, "");
